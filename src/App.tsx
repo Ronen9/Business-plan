@@ -16,7 +16,7 @@ function App() {
             <BluetoothIcon className="w-12 h-12" />
             <h1 className="text-5xl font-bold">BlueHook</h1>
           </div>
-          <p className="text-xl text-blue-100">פלטפורמת חיבורים חברתיים מבוססת מיקום בזמן אמת</p>
+          <p className="text-xl text-blue-100">פלטפורמת היכרויות מבוססת בלוטות' עם AI לחיבור הנכון, בזמן הנכון</p>
         </div>
       </header>
 
