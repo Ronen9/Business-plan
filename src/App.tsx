@@ -21,7 +21,7 @@ function App() {
       </header>
 
       <main className="max-w-4xl mx-auto px-4 py-8">
-        <ScrollArea className="h-[calc(100vh-240px)]">
+        <ScrollArea className="h-[calc(100vh-240px)] px-4">
           {/* Executive Summary */}
           <section className="mb-12">
             <Card className="p-6">
@@ -91,7 +91,7 @@ function App() {
                 <div>
                   <h3 className="text-xl font-bold text-blue-600 dark:text-blue-400 mb-2">הערך המשולב</h3>
                   <p className="leading-relaxed">
-                    <span className="font-semibold text-blue-600 dark:text-blue-400">משתמש הקצה נהנה ממפגש קליל</span>, פחות מאיים, ומהתאמות חכמות למטרותיו – רומנטיות, מקצועיות או חברתיות. בתי העסק, מנגד, זוכים לאינטראקציות מוגברות, העלאת המודעות למותג, והגדלת הרווחים בזכות החוויות האישיות שהאפליקציה יוצרת במקום.
+                    <span className="font-semibold text-blue-600 dark:text-blue-400">משתמש הקצה נהנה ממפגש קליל</span>, פחות מאיים, ומהתאמות חכמות למטרותיו – רומנטיות, מקצועית או חברתיות. בתי העסק, מנגד, זוכים לאינטראקציות מוגברות, העלאת המודעות למותג, והגדלת הרווחים בזכות החוויות האישיות שהאפליקציה יוצרת במקום.
                   </p>
                   <p className="leading-relaxed mt-4">
                     עם BlueHook, <span className="font-semibold text-blue-600 dark:text-blue-400">כולם מנצחים</span>: המשתמשים מתחברים בצורה אותנטית, ובתי העסק נהנים מתנועה מוגברת ומעורבות לקוחות יצירתית.
