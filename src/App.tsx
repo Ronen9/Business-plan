@@ -26,9 +26,78 @@ function App() {
           <section className="mb-12">
             <Card className="p-6">
               <h2 className="text-2xl font-bold mb-4">תקציר מנהלים</h2>
-              <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
-                BlueHook מביאה מהפכה לעולם החיבורים החברתיים באמצעות טכנולוגית Bluetooth, המחברת בין אנשים הנמצאים פיזית באותו מקום. בניגוד לאפליקציות חברתיות מסורתיות, BlueHook מאפשרת חיבורים אותנטיים ומיידיים בין אנשים שנמצאים באותו מתחם, יוצרת הזדמנויות לקשרים אמיתיים ומשמעותיים - בין אם מדובר בדייטים, נטוורקינג מקצועי, או חברויות חדשות.
-              </p>
+              <div className="text-gray-700 dark:text-gray-300 leading-relaxed space-y-4">
+                <p className="mb-4">
+                  <span className="font-semibold text-blue-600 dark:text-blue-400">BlueHook היא אפליקציה פורצת דרך</span> שמציעה פתרון היברידי לחיבורים חברתיים בעידן הדיגיטלי. בעולם שבו המסכים השתלטו על חיינו ואנחנו נרתעים ממפגשים פיזיים, BlueHook ממנפת את היתרונות של הטכנולוגיה כדי לעודד היכרות אנושית אמיתית, בזמן אמת ובמקום שבו אתם נמצאים.
+                </p>
+
+                <p className="mb-4">
+                  באמצעות <span className="font-semibold text-blue-600 dark:text-blue-400">טכנולוגיית בלוטות' חכמה</span>, BlueHook מזהה אנשים קרובים בעלי תחומי עניין משותפים – <span className="font-semibold text-blue-600 dark:text-blue-400">גם ללא חיבור ל-WiFi או רשת סלולרית</span>. החיבור מתבצע ישירות בין המכשירים, ומספק פתרון ייחודי במקומות ללא גישה לאינטרנט או לרשת סלולרית.
+                </p>
+
+                <p className="mb-4">
+                  מה שמייחד את BlueHook הוא <span className="font-semibold text-blue-600 dark:text-blue-400">המענה לצורך בשבירת הקרח</span>. במקום לפנות ישירות ולהרגיש מבוכה, האפליקציה מאפשרת ליצור קשר ראשוני דיגיטלי, ידידותי ולא מאיים – בין אם זה שליחת הודעה קצרה, אימוג'י, או אפילו הזמנה לדרינק. זהו גשר דיגיטלי שמחבר בין העולם הווירטואלי לפיזי, ועוזר לכם להרגיש בטוחים ונינוחים במפגש האמיתי.
+                </p>
+
+                <p className="mb-4">
+                  לדוגמה: אתם במסיבה, בתערוכה, אירוע עסקי או בבית קפה ורואים מישהו שנראה מעניין. BlueHook עוזרת לכם לזהות אנשים קרובים, לקבל תמונה ופרטים בסיסיים (לפי בחירת המשתמש), ואפילו להתאים לכם אנשים פוטנציאליים על בסיס תחומי עניין או העדפות שהגדרתם. <span className="font-semibold text-blue-600 dark:text-blue-400">סוכן ה-AI של האפליקציה עושה את העבודה עבורכם</span>, ומציע התאמות חכמות שמקלות על תחילת ההיכרות.
+                </p>
+
+                <p>
+                  בין אם אתם מחפשים חברים חדשים, מרחיבים קשרים מקצועיים או אפילו הכרות רומנטית, <span className="font-semibold text-blue-600 dark:text-blue-400">BlueHook היא הרבה יותר מסתם אפליקציה – היא הכלי שמחזיר את האנושיות לעידן הדיגיטלי</span>.
+                </p>
+              </div>
+            </Card>
+          </section>
+
+          {/* How It Works Section */}
+          <section className="mb-12">
+            <Card className="p-6">
+              <h2 className="text-2xl font-bold mb-4">איך זה עובד?</h2>
+              
+              <div className="space-y-6 text-gray-700 dark:text-gray-300">
+                <div>
+                  <h3 className="text-xl font-bold text-blue-600 dark:text-blue-400 mb-2">מערכת חכמה בזמן אמת</h3>
+                  <p className="leading-relaxed">
+                    האפליקציה פועלת כמערכת מתקדמת שמחברת בין אנשים בצורה חכמה ויעילה בזמן אמת. באמצעות <span className="font-semibold text-blue-600 dark:text-blue-400">טכנולוגיית בלוטות' מתקדמת</span>, המכשיר שלכם מציג מכשירים סמוכים, מזהה משתמשים שמתאימים להגדרות שלכם, ומאפשר תקשורת ראשונית קלה ונוחה. BlueHook אינה רק כלי ליצירת קשרים – היא <span className="font-semibold text-blue-600 dark:text-blue-400">פלטפורמה שמעצימה גם את המשתמשים וגם את בתי העסק</span>.
+                  </p>
+                </div>
+
+                <div>
+                  <h3 className="text-xl font-bold text-blue-600 dark:text-blue-400 mb-2">עולם רומנטי</h3>
+                  <p className="leading-relaxed">
+                    אתם יושבים בבית קפה, ורואים סביבכם אנשים שנראים מעניינים. האפליקציה תזהה <span className="font-semibold text-blue-600 dark:text-blue-400">באופן אוטומטי אנשים עם תחומי עניין דומים</span> (למשל, אהבה לספרים או לטיולים) ותציע לכם לשלוח הודעה או אימוג'י להתחלה קלילה. אם שני הצדדים מתעניינים, תוכלו לקבוע מפגש פנים מול פנים באותו הרגע, <span className="font-semibold text-blue-600 dark:text-blue-400">מבלי לחוש מבוכה או חשש מדחייה</span>.
+                  </p>
+                </div>
+
+                <div>
+                  <h3 className="text-xl font-bold text-blue-600 dark:text-blue-400 mb-2">עולם מקצועי</h3>
+                  <p className="leading-relaxed">
+                    במהלך כנס מקצועי, האפליקציה עוזרת לזהות אנשי מקצוע בתחום שלכם, ואפילו <span className="font-semibold text-blue-600 dark:text-blue-400">מציעה התאמות מבוססות על המטרות העסקיות שלכם</span>. לדוגמה, אם אתם מחפשים שותף טכנולוגי, האפליקציה יכולה להדגיש אנשים שמתמחים בתחום זה. תוכלו לשלוח הודעה, לקבוע פגישה, ואפילו לתזמן את הפגישה במהלך האירוע – והכול באופן דיגיטלי פשוט וידידותי.
+                  </p>
+                </div>
+
+                <div>
+                  <h3 className="text-xl font-bold text-blue-600 dark:text-blue-400 mb-2">הזדמנויות עסקיות</h3>
+                  <p className="leading-relaxed mb-4">
+                    עבור בתי העסק, BlueHook היא <span className="font-semibold text-blue-600 dark:text-blue-400">כלי שיווקי מהפכני</span>. בעלי ברים, מועדונים, או פסטיבלים יכולים להשתמש באפליקציה כדי להציע קופונים, מבצעים ייחודיים, או לשדרג את חוויית המשתמשים. לדוגמה:
+                  </p>
+                  <ul className="list-disc list-inside space-y-2 mr-6">
+                    <li>פאב יכול להציע "משקה ראשון חינם" דרך האפליקציה, לאנשים שפותחים חיבור חדש.</li>
+                    <li>מועדון יכול לעודד אנשים לשתף פעולה במשחק חברתי באמצעות האפליקציה, שיזכה בפרסים כמו כרטיסים למופעים.</li>
+                  </ul>
+                </div>
+
+                <div>
+                  <h3 className="text-xl font-bold text-blue-600 dark:text-blue-400 mb-2">הערך המשולב</h3>
+                  <p className="leading-relaxed">
+                    <span className="font-semibold text-blue-600 dark:text-blue-400">משתמש הקצה נהנה ממפגש קליל</span>, פחות מאיים, ומהתאמות חכמות למטרותיו – רומנטיות, מקצועיות או חברתיות. בתי העסק, מנגד, זוכים לאינטראקציות מוגברות, העלאת המודעות למותג, והגדלת הרווחים בזכות החוויות האישיות שהאפליקציה יוצרת במקום.
+                  </p>
+                  <p className="leading-relaxed mt-4">
+                    עם BlueHook, <span className="font-semibold text-blue-600 dark:text-blue-400">כולם מנצחים</span>: המשתמשים מתחברים בצורה אותנטית, ובתי העסק נהנים מתנועה מוגברת ומעורבות לקוחות יצירתית.
+                  </p>
+                </div>
+              </div>
             </Card>
           </section>
 
